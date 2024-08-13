@@ -1,0 +1,150 @@
+/*Inicio apartado de Footer*/
+.footer {
+  padding: 70px 0;
+}
+
+.footer-tipo {
+  background: linear-gradient(255deg, #11297a, #017732, #7bc090);
+}
+.footer-tipo.dark-mode {
+  background: linear-gradient(
+    2555deg,
+    #1e1f1ffb,
+    #000
+  ); /* Cambia el color de fondo del hero en modo oscuro */
+  color: #fff; /* Cambia el color del texto del hero en modo oscuro */
+}
+.logo-footer {
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.footer-col .info-gym {
+  font-size: 13px;
+  color: white;
+}
+.terminos {
+  text-decoration: none;
+  color: blue;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col p {
+  font-size: 12px;
+  color: #000;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col span {
+  font-size: 12px;
+  color: #000;
+  transform: capitalize;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 2px;
+}
+
+.footer-col .menus {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 12px;
+  display: block;
+  transition: all 0.3 ease;
+}
+
+.footer-col .sociales a {
+  display: flex;
+  height: 38px;
+  width: 38px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 10px 15px;
+  transition: 0.4s;
+  text-transform: capitalize;
+}
+
+.creador {
+  text-align: center;
+  margin-top: 17px;
+  background-color: white;
+}
+
+.footer-col .facebook {
+  background-color: #3c70a4;
+  color: white;
+  margin-bottom: 15px;
+  border: 1px solid #fff;
+}
+.footer-col .whatsapp {
+  background-color: #39d40a;
+  color: white;
+  margin-bottom: 15px;
+  border: 1px solid #fff;
+}
+.footer-col .instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  margin-bottom: 15px;
+  border: 1px solid #fff;
+}
+.footer-col .tiktok {
+  background-color: #000;
+  color: white;
+  margin-bottom: 15px;
+  border: 1px solid #fff;
+}
+
+.footer-col .sociales a:hover {
+  transform: scale(1.2);
+}
+
+.footer-col .menus:hover {
+  color: #4356aa;
+  padding-left: 8px;
+}
+
+.footer-col .horarios {
+  font-size: 13px;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .sociales {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+  .footer-col .menus {
+    font-size: 12px;
+  }
+  .footer-col p {
+    font-size: 10px;
+  }
+}
+/*Fin apartado footer*/
