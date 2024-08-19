@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
-import './Locales.css';
+import { useEffect } from "react";
+import "./Locales.css";
 
 export const Locales = () => {
-
   useEffect(() => {
     // Mostrar más contenido
     const verMasBtn = document.getElementById("ver-mas-btn");
@@ -16,7 +15,9 @@ export const Locales = () => {
 
     // Búsqueda de contenido
     const buscarSeguro = () => {
-      const textoBusqueda = (document.getElementById("input-busqueda") as HTMLInputElement).value.toLowerCase();
+      const textoBusqueda = (
+        document.getElementById("input-busqueda") as HTMLInputElement
+      ).value.toLowerCase();
       const seguros = document.getElementsByClassName("info-div");
 
       for (let i = 0; i < seguros.length; i++) {
@@ -42,7 +43,8 @@ export const Locales = () => {
     // Cleanup function to remove event listeners
     return () => {
       if (verMasBtn) verMasBtn.removeEventListener("click", () => {});
-      if (inputBusqueda) inputBusqueda.removeEventListener("input", buscarSeguro);
+      if (inputBusqueda)
+        inputBusqueda.removeEventListener("input", buscarSeguro);
     };
   }, []);
 
@@ -82,7 +84,9 @@ export const Locales = () => {
                 <ul>
                   <li>Áreas de cardio y pesas totalmente equipadas.</li>
                   <li>Clases grupales de yoga, pilates y zumba.</li>
-                  <li>Entrenadores personales disponibles para sesiones privadas.</li>
+                  <li>
+                    Entrenadores personales disponibles para sesiones privadas.
+                  </li>
                   <li>Horarios extendidos para mayor comodidad.</li>
                 </ul>
                 <a className="enlace-leer" href="locales/santana.php">
@@ -95,10 +99,14 @@ export const Locales = () => {
               <div className="info-text">
                 <h3>Aventura Gym Local Naranjal</h3>
                 <ul>
-                  <li>Zona de musculación con máquinas de última generación.</li>
+                  <li>
+                    Zona de musculación con máquinas de última generación.
+                  </li>
                   <li>Clases de spinning y entrenamiento funcional.</li>
                   <li>Nutricionistas para asesoramiento personalizado.</li>
-                  <li>Acceso a sauna y área de relajación post-entrenamiento.</li>
+                  <li>
+                    Acceso a sauna y área de relajación post-entrenamiento.
+                  </li>
                 </ul>
                 <a className="enlace-leer" href="locales/naranjal.php">
                   Leer más
@@ -106,12 +114,20 @@ export const Locales = () => {
               </div>
             </div>
             <div className="info-div clearfix">
-              <img src="/src/assets/img/local-Universitaria2751.webp" alt="Imagen 2" />
+              <img
+                src="/src/assets/img/local-Universitaria2751.webp"
+                alt="Imagen 2"
+              />
               <div className="info-text">
                 <h3>Aventura Gym Local Universitaria 2751</h3>
                 <ul>
-                  <li>Piscina semi-olímpica para natación y clases de aquafitness.</li>
-                  <li>Salones de usos múltiples para clases de artes marciales y baile.</li>
+                  <li>
+                    Piscina semi-olímpica para natación y clases de aquafitness.
+                  </li>
+                  <li>
+                    Salones de usos múltiples para clases de artes marciales y
+                    baile.
+                  </li>
                   <li>Entrenamiento de alta intensidad (HIIT) disponible.</li>
                   <li>Cafetería saludable con opciones de batidos y snacks.</li>
                 </ul>
@@ -140,13 +156,22 @@ export const Locales = () => {
           <div className="row justify-content-center">
             <div className="col-md-7">
               <div className="info-div clearfix">
-                <img src="/src/assets/img/local-sanmartinporres.webp" alt="Imagen 1" />
+                <img
+                  src="/src/assets/img/local-sanmartinporres.webp"
+                  alt="Imagen 1"
+                />
                 <div className="info-text">
                   <h3>Aventura Gym Local San Martin de Porres</h3>
                   <ul>
-                    <li>Programa de entrenamiento personalizado según tus objetivos.</li>
+                    <li>
+                      Programa de entrenamiento personalizado según tus
+                      objetivos.
+                    </li>
                     <li>Clases de crossfit y bootcamp.</li>
-                    <li>Servicio de guardería para que entrenes sin preocupaciones.</li>
+                    <li>
+                      Servicio de guardería para que entrenes sin
+                      preocupaciones.
+                    </li>
                     <li>Área de estiramiento y recuperación muscular.</li>
                   </ul>
                   <a className="enlace-leer" href="locales/smp.php">
@@ -155,11 +180,16 @@ export const Locales = () => {
                 </div>
               </div>
               <div className="info-div clearfix">
-                <img src="/src/assets/img/local-santaanita.webp" alt="Imagen 2" />
+                <img
+                  src="/src/assets/img/local-santaanita.webp"
+                  alt="Imagen 2"
+                />
                 <div className="info-text">
                   <h3>Aventura Gym Local Santa Anita</h3>
                   <ul>
-                    <li>Equipo de entrenamiento cardiovascular de alta tecnología.</li>
+                    <li>
+                      Equipo de entrenamiento cardiovascular de alta tecnología.
+                    </li>
                     <li>Programas de pérdida de peso y tonificación.</li>
                     <li>Clases de defensa personal y kickboxing.</li>
                     <li>Acceso a fisioterapeutas y masajistas en el lugar.</li>
@@ -170,6 +200,16 @@ export const Locales = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      {/* Contenedor del texto */}
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-md-6 text-center mt-4">
+            <p className="texto-centrado">
+              ¡Tu bienestar y mejorar tu salud es nuestra prioridad número uno!
+            </p>
           </div>
         </div>
       </div>
