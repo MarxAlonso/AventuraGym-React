@@ -1,6 +1,5 @@
 import { ReactTyped } from "react-typed";
 import "./Home.css";
-import { Productos } from "./Productos";
 
 export const Home = () => {
   return (
@@ -68,7 +67,6 @@ export const Home = () => {
         </svg>
       </section>
       <br /><br />
-      <Productos />
     </>
   );
 };

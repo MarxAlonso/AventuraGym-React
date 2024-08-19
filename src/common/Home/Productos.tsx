@@ -1,4 +1,4 @@
-import './Productos.css'
+import "./Productos.css";
 export const Productos = () => {
   return (
     <>
@@ -32,5 +32,104 @@ export const Productos = () => {
         </div>
       </div>
     </>
+  );
+};
+export const VentaProductos = () => {
+  return (
+    <div className="container mt-5" id="productos-gym">
+      <h2 className="text-center mb-4">Nuestros Productos</h2>
+      <div className="row d-none d-md-flex">
+        <div className="col-md-4 mb-4">
+          <div className="card card-custom">
+            <img
+              src="/src/assets/img/productos/aminoacidos.webp"
+              className="card-img-top"
+              alt=""
+            />
+            <div className="card-body card-body-custom">
+              <h3 className="card-title" />
+              <p className="card-text">
+                <strong>Precio:</strong> 150.00
+              </p>
+              <a href="" className="btn btn-success mt-auto">
+                Ver Detalles
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 mb-4">
+          <div className="card card-custom">
+            <img
+              src="/src/assets/img/productos/colagenohidrolizado.webp"
+              className="card-img-top"
+              alt=""
+            />
+            <div className="card-body card-body-custom">
+              <h3 className="card-title" />
+              <p className="card-text">
+                <strong>Precio:</strong> 150.00
+              </p>
+              <a href="" className="btn btn-success mt-auto">
+                Ver Detalles
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 mb-4">
+          <div className="card card-custom">
+            <img
+              src="/src/assets/img/productos/collagen.webp"
+              className="card-img-top"
+              alt=""
+            />
+            <div className="card-body card-body-custom">
+              <h3 className="card-title" />
+              <p className="card-text">
+                <strong>Precio:</strong> 150.00
+              </p>
+              <a href="" className="btn btn-success mt-auto">
+                Ver Detalles
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 mb-4">
+          <div className="card card-custom">
+            <img
+              src="/src/assets/img/productos/creatina.webp"
+              className="card-img-top"
+              alt=""
+            />
+            <div className="card-body card-body-custom">
+              <h3 className="card-title" />
+              <p className="card-text">
+                <strong>Precio:</strong> 150.00
+              </p>
+              <a href="" className="btn btn-success mt-auto">
+                Ver Detalles
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 mb-4">
+          <div className="card card-custom">
+            <img
+              src="/src/assets/img/productos/creatinamonohidratada.webp"
+              className="card-img-top"
+              alt=""
+            />
+            <div className="card-body card-body-custom">
+              <h3 className="card-title" />
+              <p className="card-text">
+                <strong>Precio:</strong> 150.00
+              </p>
+              <a href="" className="btn btn-success mt-auto">
+                Ver Detalles
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
