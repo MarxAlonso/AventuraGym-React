@@ -66,7 +66,36 @@ export const Home = () => {
           />
         </svg>
       </section>
-      <br /><br />
+      <br />
+      <br />
     </>
+  );
+};
+export const ComunidadGym = () => {
+  return (
+    <div className="container-fluid no-padding">
+      <div className="row g-0">
+        <div className="col-12">
+          <div className="full-width-section">
+            <img
+              src="https://dtsvkkjw40x57.cloudfront.net/page-builder%2F8e7XZmxTT9CCyQV7UJf6_banner-comunidad.png"
+              alt="Comunidad InstaFit"
+            />
+            <div className="full-width-overlay" />
+            <div className="full-width-text">
+              <h2>COMUNIDAD AVENTURA GYM</h2>
+              <p>
+                Únete a miles de gymbros y gymgirls, y carga tu entrenamiento de
+                motivación, tips y energía para lograr los resultados que
+                buscas.
+              </p>
+              <a href="contacto.php" className="btn btn-primary">
+                Únete ahora
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };

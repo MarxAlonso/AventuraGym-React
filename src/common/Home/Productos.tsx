@@ -130,6 +130,7 @@ export const VentaProductos = () => {
           </div>
         </div>
       </div>
+        <a href="" className="btn btn-warning ver-mas-btn">Ver Productos</a>
     </div>
   );
 };
