@@ -95,7 +95,7 @@ export const Header = () => {
                   </a>
                 </li>
                 <li className="cs-li">
-                  <a href="servicios.php" className="cs-li-link">
+                  <a href="/servicios" className="cs-li-link">
                     SERVICIOS
                   </a>
                 </li>
