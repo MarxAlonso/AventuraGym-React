@@ -13,6 +13,7 @@ export const HomePage = () => {
       <Productos />
       <VentaProductos />
       <ComunidadGym />
+      <br />
       <Locales />
       <Footer />
     </>
