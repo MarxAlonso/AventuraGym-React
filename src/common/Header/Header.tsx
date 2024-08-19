@@ -85,12 +85,12 @@ export const Header = () => {
             <div className="cs-ul-wrapper">
               <ul id="cs-expanded" className="cs-ul" aria-expanded="false">
                 <li className="cs-li">
-                  <a href="panelcliente.php" className="cs-li-link cs-active">
+                  <a href="/" className="cs-li-link cs-active">
                     INICIO
                   </a>
                 </li>
                 <li className="cs-li">
-                  <a href="nosotros.php" className="cs-li-link">
+                  <a href="/nosotros" className="cs-li-link">
                     NOSOTROS
                   </a>
                 </li>
