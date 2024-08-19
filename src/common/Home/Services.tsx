@@ -1,4 +1,4 @@
-import './Services.css'
+import "./Services.css";
 export const Services = () => {
   return (
     <section className="service_section layout_padding">
@@ -87,6 +87,102 @@ export const Services = () => {
           </div>
         </div>
       </div>
+    </section>
+  );
+};
+export const PrimerosPasos = () => {
+  return (
+    <section id="nosotros">
+      <div className="container ">
+        <h2
+          className="mt-5"
+          style={{
+            textAlign: "center",
+            fontFamily: "fantasy",
+            fontSize: 28,
+            border: "2px solid black",
+            borderRadius: "10vmax",
+            borderColor: "#5c92ba",
+            padding: 18,
+            color: "#456bb1",
+            marginBottom: 50,
+          }}
+        >
+          ¿CÓMO INSCRIBIRTE?
+        </h2>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 a">
+              <img
+                src="/src/assets/img/IMAGEN-1-PASO-1.png"
+                alt="Imagen"
+                className="img-fluid mx-auto d-block"
+              />
+            </div>
+            <div className="col-md-6 ">
+              <p className="paso">Primer paso:</p>
+              <div className="contenido-paso" style={{ marginLeft: 15 }}>
+                <p style={{ marginBottom: 0, color: "#41629f", fontSize: 18 }}>
+                  ¡Para hacer uso de nuestros servicios en el gym entra a
+                </p>
+                <p style={{ marginBottom: 0, color: "#41629f", fontSize: 18 }}>
+                  "Contáctanos" que se encuentra al inicio de la
+                </p>
+                <p style={{ marginBottom: 0, color: "#41629f", fontSize: 18 }}>
+                  página!
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr style={{ border: "5px solid green" }} />
+          <div className="row">
+            <div className="col-md-6 align-self-center">
+              <p className="paso2">Segundo paso:</p>
+              <div className="contenido-paso2">
+                <p style={{ marginBottom: 0, color: "#41629f", fontSize: 18 }}>
+                  Completa tus datos y en instantes estaremos
+                </p>
+                <p style={{ marginBottom: 0, color: "#41629f", fontSize: 18 }}>
+                  contactándonos con usted.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-4 align-self-center ">
+              <img
+                src="/src/assets/img/IMAGEN-2-PASO-2.png"
+                alt="Imagen"
+                className="img-fluid mx-auto d-block"
+              />
+            </div>
+          </div>
+          <hr style={{ border: "5px solid green" }} />
+          <div className="row">
+            <div className="col-md-6 a">
+              <img
+                src="/src/assets/img/IMAGEN-3-PASO-3.png"
+                alt="Imagen"
+                className="img-fluid mx-auto d-block"
+                style={{ width: "33%", height: "auto" }}
+              />
+            </div>
+            <div className="col-md-6 align-self-center">
+              <p className="paso">Tercer paso:</p>
+              <div className="contenido-paso " style={{ marginLeft: 15 }}>
+                <p style={{ marginBottom: 0, color: "#41629f", fontSize: 18 }}>
+                  ¡Coméntanos cuál es el local que está interesado y
+                </p>
+                <p style={{ marginBottom: 0, color: "#41629f", fontSize: 18 }}>
+                  buscaremos la información y promociones más adecuada para su
+                </p>
+                <p style={{ marginBottom: 0, color: "#41629f", fontSize: 18 }}>
+                  bolsillo!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
     </section>
   );
 };
