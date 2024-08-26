@@ -59,7 +59,7 @@ export const Header = () => {
         <div className="cs-container">
           {/*Nav Logo*/}
           <a
-            href="panelcliente.php"
+            href="/"
             className="cs-logo"
             aria-label="back to home"
           >
@@ -108,7 +108,7 @@ export const Header = () => {
                   </a>
                 </li>
                 <li className="cs-li">
-                  <a href="comprar.php" className="cs-li-link">
+                  <a href="comprar" className="cs-li-link">
                     COMPRAR
                   </a>
                 </li>
