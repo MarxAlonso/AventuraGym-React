@@ -71,3 +71,87 @@ export const Comprar = () => {
     </>
   );
 };
+
+export const Comprar2 = () => {
+  return (
+    <main className="container">
+      <br />
+      <h1 className="mb-4">Bienvenido,</h1>
+      <h2 className="mb-4">Nuestros Productos</h2>
+      <div className="row justify-content-between align-items-center mb-3">
+        <div className="col-md-4">
+          <input
+            type="text"
+            id="filterInput"
+            className="form-control mb-4"
+            placeholder="Buscar por nombre..."
+          />
+        </div>
+        <div className="row" id="productCards">
+          <div className="col-md-4">
+            <div
+              className="card mb-4 card-custom"
+              style={{ boxShadow: "2px 5px 2px 3px rgba(0, 0, 0, 0.3)" }}
+            >
+              <img src="/src/assets/img/productos/nitrowhey.webp" className="card-img-top" alt="" />
+              <div className="card-body card-body-custom">
+                <h3 style={{ fontSize: 20 }} className="card-title" />
+                <p className="card-text">
+                  <strong>Precio:</strong> S/ 250.00
+                </p>
+                <p className="card-text">
+                  <strong>Stock:</strong> 5
+                </p>
+                <a href="" className="btn btn-success mt-auto">
+                  Ver Detalles
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div
+              className="card mb-4 card-custom"
+              style={{ boxShadow: "2px 5px 2px 3px rgba(0, 0, 0, 0.3)" }}
+            >
+              <img src="/src/assets/img/productos/proteinanitro.jpeg" className="card-img-top" alt="" />
+              <div className="card-body card-body-custom">
+                <h3 style={{ fontSize: 20 }} className="card-title" />
+                <p className="card-text">
+                  <strong>Precio:</strong> S/ 250.00
+                </p>
+                <p className="card-text">
+                  <strong>Stock:</strong> 5
+                </p>
+                <a href="" className="btn btn-success mt-auto">
+                  Ver Detalles
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div
+              className="card mb-4 card-custom"
+              style={{ boxShadow: "2px 5px 2px 3px rgba(0, 0, 0, 0.3)" }}
+            >
+              <img src="/src/assets/img/productos/hidrolyzed.webp" className="card-img-top" alt="" />
+              <div className="card-body card-body-custom">
+                <h3 style={{ fontSize: 20 }} className="card-title" />
+                <p className="card-text">
+                  <strong>Precio:</strong> S/ 250.00
+                </p>
+                <p className="card-text">
+                  <strong>Stock:</strong> 5
+                </p>
+                <a href="" className="btn btn-success mt-auto">
+                  Ver Detalles
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+};
