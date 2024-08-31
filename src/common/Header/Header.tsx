@@ -90,12 +90,12 @@ export const Header = () => {
                   </a>
                 </li>
                 <li className="cs-li">
-                  <a href="/nosotros" className="cs-li-link">
+                  <a href="nosotros" className="cs-li-link">
                     NOSOTROS
                   </a>
                 </li>
                 <li className="cs-li">
-                  <a href="/servicios" className="cs-li-link">
+                  <a href="servicios" className="cs-li-link">
                     SERVICIOS
                   </a>
                 </li>
