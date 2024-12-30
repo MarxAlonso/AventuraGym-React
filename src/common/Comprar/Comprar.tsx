@@ -72,6 +72,9 @@ export const Comprar = () => {
   );
 };
 
+import nitrowey from '../../assets/img/productos/nitrowhey.webp';
+import proteinanitro from '../../assets/img/productos/proteinanitro.jpeg';
+import hidrolyzed from '../../assets/img/productos/hidrolyzed.webp';
 export const Comprar2 = () => {
   return (
     <main className="container">
@@ -93,7 +96,7 @@ export const Comprar2 = () => {
               className="card mb-4 card-custom"
               style={{ boxShadow: "2px 5px 2px 3px rgba(0, 0, 0, 0.3)" }}
             >
-              <img src="/src/assets/img/productos/nitrowhey.webp" className="card-img-top" alt="" />
+              <img src={nitrowey} className="card-img-top" alt="" />
               <div className="card-body card-body-custom">
                 <h3 style={{ fontSize: 20 }} className="card-title" />
                 <p className="card-text">
@@ -114,7 +117,7 @@ export const Comprar2 = () => {
               className="card mb-4 card-custom"
               style={{ boxShadow: "2px 5px 2px 3px rgba(0, 0, 0, 0.3)" }}
             >
-              <img src="/src/assets/img/productos/proteinanitro.jpeg" className="card-img-top" alt="" />
+              <img src={proteinanitro} className="card-img-top" alt="" />
               <div className="card-body card-body-custom">
                 <h3 style={{ fontSize: 20 }} className="card-title" />
                 <p className="card-text">
@@ -135,7 +138,7 @@ export const Comprar2 = () => {
               className="card mb-4 card-custom"
               style={{ boxShadow: "2px 5px 2px 3px rgba(0, 0, 0, 0.3)" }}
             >
-              <img src="/src/assets/img/productos/hidrolyzed.webp" className="card-img-top" alt="" />
+              <img src={hidrolyzed}className="card-img-top" alt="" />
               <div className="card-body card-body-custom">
                 <h3 style={{ fontSize: 20 }} className="card-title" />
                 <p className="card-text">
