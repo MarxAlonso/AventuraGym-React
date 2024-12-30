@@ -90,6 +90,10 @@ export const Services = () => {
     </section>
   );
 };
+
+import paso1 from '../../assets/img/IMAGEN-1-PASO-1.png';
+import paso2 from '../../assets/img/IMAGEN-2-PASO-2.png';
+import paso3 from '../../assets/img/IMAGEN-3-PASO-3.png';
 export const PrimerosPasos = () => {
   return (
     <section id="nosotros">
@@ -114,7 +118,7 @@ export const PrimerosPasos = () => {
           <div className="row">
             <div className="col-md-6 a">
               <img
-                src="/src/assets/img/IMAGEN-1-PASO-1.png"
+                src={paso1}
                 alt="Imagen"
                 className="img-fluid mx-auto d-block"
               />
@@ -149,7 +153,7 @@ export const PrimerosPasos = () => {
             </div>
             <div className="col-md-4 align-self-center ">
               <img
-                src="/src/assets/img/IMAGEN-2-PASO-2.png"
+                src={paso2}
                 alt="Imagen"
                 className="img-fluid mx-auto d-block"
               />
@@ -159,7 +163,7 @@ export const PrimerosPasos = () => {
           <div className="row">
             <div className="col-md-6 a">
               <img
-                src="/src/assets/img/IMAGEN-3-PASO-3.png"
+                src={paso3}
                 alt="Imagen"
                 className="img-fluid mx-auto d-block"
                 style={{ width: "33%", height: "auto" }}
