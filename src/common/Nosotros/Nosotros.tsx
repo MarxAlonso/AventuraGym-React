@@ -1,4 +1,7 @@
 import "./Nosotros.css";
+import carousel1 from '../../assets/img/carrusel3.webp';
+import carousel2 from '../../assets/img/carrusel1.webp';
+import carousel3 from '../../assets/img/fondo-gym.webp';
 export const Nosotros = () => {
   return (
     <section id="gallery-1716" className="bg-nosotros">
@@ -21,17 +24,17 @@ export const Nosotros = () => {
             {/*Mobile Image*/}
             <source
               media="(max-width: 600px)"
-              srcSet="/src/assets/img/carrusel3.webp"
+              srcSet={carousel1}
             />
             {/*Tablet and above Image*/}
             <source
               media="(min-width: 601px)"
-              srcSet="/src/assets/img/carrusel3.webp"
+              srcSet={carousel1}
             />
             <img
               loading="lazy"
               decoding="async"
-              src="/src/assets/img/carrusel3.webp"
+              src={carousel1}
               alt="picture"
               width={480}
               height={549}
@@ -41,17 +44,17 @@ export const Nosotros = () => {
             {/*Mobile Image*/}
             <source
               media="(max-width: 600px)"
-              srcSet="/src/assets/img/carrusel1.webp"
+              srcSet={carousel2}
             />
             {/*Tablet and above Image*/}
             <source
               media="(min-width: 601px)"
-              srcSet="/src/assets/img/carrusel1.webp"
+              srcSet={carousel2}
             />
             <img
               loading="lazy"
               decoding="async"
-              src="/src/assets/img/carrusel1.webp"
+              src={carousel2}
               alt="picture"
               width={480}
               height={549}
@@ -61,17 +64,17 @@ export const Nosotros = () => {
             {/*Mobile Image*/}
             <source
               media="(max-width: 600px)"
-              srcSet="/src/assets/img/fondo-gym.webp"
+              srcSet={carousel3}
             />
             {/*Tablet and above Image*/}
             <source
               media="(min-width: 601px)"
-              srcSet="/src/assets/img/fondo-gym.webp"
+              srcSet={carousel3}
             />
             <img
               loading="lazy"
               decoding="async"
-              src="/src/assets/img/fondo-gym.webp"
+              src={carousel3}
               alt="picture"
               width={480}
               height={549}
