@@ -1,6 +1,6 @@
 import { ReactTyped } from "react-typed";
 import "./Home.css";
-
+import FondoGym from '../../assets/img/fondo-gym.webp';
 export const Home = () => {
   return (
     <>
@@ -43,7 +43,7 @@ export const Home = () => {
           <div className="col-md-6">
             <div className="cs-picture">
               <img
-                src="/src/assets/img/fondo-gym.webp"
+                src={FondoGym}
                 alt="Fondo"
                 className="img-fluid"
               />

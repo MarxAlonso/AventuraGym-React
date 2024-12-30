@@ -34,6 +34,12 @@ export const Productos = () => {
     </>
   );
 };
+
+import Producto1 from '../../assets/img/productos/aminoacidos.webp';
+import Producto2 from '../../assets/img/productos/colagenohidrolizado.webp';
+import Producto3 from '../../assets/img/productos/collagen.webp';
+import Producto4 from '../../assets/img/productos/creatina.webp';
+import Producto5 from '../../assets/img/productos/creatinamonohidratada.webp';
 export const VentaProductos = () => {
   return (
     <div className="container mt-5" id="productos-gym">
@@ -42,7 +48,7 @@ export const VentaProductos = () => {
         <div className="col-md-4 mb-4">
           <div className="card card-custom">
             <img
-              src="/src/assets/img/productos/aminoacidos.webp"
+              src={Producto1}
               className="card-img-top"
               alt=""
             />
@@ -60,7 +66,7 @@ export const VentaProductos = () => {
         <div className="col-md-4 mb-4">
           <div className="card card-custom">
             <img
-              src="/src/assets/img/productos/colagenohidrolizado.webp"
+              src={Producto2}
               className="card-img-top"
               alt=""
             />
@@ -78,7 +84,7 @@ export const VentaProductos = () => {
         <div className="col-md-4 mb-4">
           <div className="card card-custom">
             <img
-              src="/src/assets/img/productos/collagen.webp"
+              src={Producto3}
               className="card-img-top"
               alt=""
             />
@@ -96,7 +102,7 @@ export const VentaProductos = () => {
         <div className="col-md-4 mb-4">
           <div className="card card-custom">
             <img
-              src="/src/assets/img/productos/creatina.webp"
+              src={Producto4}
               className="card-img-top"
               alt=""
             />
@@ -114,7 +120,7 @@ export const VentaProductos = () => {
         <div className="col-md-4 mb-4">
           <div className="card card-custom">
             <img
-              src="/src/assets/img/productos/creatinamonohidratada.webp"
+              src={Producto5}
               className="card-img-top"
               alt=""
             />

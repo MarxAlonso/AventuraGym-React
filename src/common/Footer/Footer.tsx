@@ -1,4 +1,5 @@
 import "./Footer.css";
+import FooterLogo from '../../assets/img/aventura-gym.webp';
 export const Footer = () => {
   return (
     <>
@@ -9,7 +10,7 @@ export const Footer = () => {
               <br />
               <a href="/">
                 <img
-                  src="/src/assets/img/aventura-gym.webp"
+                  src={FooterLogo}
                   className="logo-footer"
                   width={150}
                   alt="Logo empresa"
