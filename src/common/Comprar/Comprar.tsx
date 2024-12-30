@@ -1,4 +1,5 @@
 import "./Comprar.css";
+import productsgym from '../../assets/img/products-gym.jpg';
 export const Comprar = () => {
   return (
     <>
@@ -51,16 +52,16 @@ export const Comprar = () => {
         <picture className="cs-background">
           <source
             media="(max-width: 767px)"
-            srcSet="/src/assets/img/products-gym.jpg"
+            srcSet={productsgym}
           />
           <source
             media="(min-width: 768px)"
-            srcSet="/src/assets/img/products-gym.jpg"
+            srcSet={productsgym}
           />
           <img
             loading="lazy"
             decoding="async"
-            src="/src/assets/img/products-gym.jpg"
+            src={productsgym}
             alt="people"
             width={275}
             height={132}
