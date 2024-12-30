@@ -1,6 +1,10 @@
 import { useEffect } from "react";
 import "./Locales.css";
-
+import local1 from '../../assets/img/localSantaAna.webp';
+import local2 from '../../assets/img/localNaranjal.webp';
+import local3 from '../../assets/img/local-Universitaria2751.webp';
+import local4 from '../../assets/img/local-sanmartinporres.webp';
+import local5 from '../../assets/img/local-santaanita.webp';
 export const Locales = () => {
   useEffect(() => {
     // Mostrar más contenido
@@ -78,7 +82,7 @@ export const Locales = () => {
         <div className="row justify-content-center">
           <div className="col-md-7">
             <div className="info-div clearfix">
-              <img src="/src/assets/img/localSantaAna.webp" alt="Imagen 1" />
+              <img src={local1} alt="Imagen 1" />
               <div className="info-text">
                 <h3>Aventura Gym Local Santa Ana Pro</h3>
                 <ul>
@@ -95,7 +99,7 @@ export const Locales = () => {
               </div>
             </div>
             <div className="info-div clearfix">
-              <img src="/src/assets/img/localNaranjal.webp" alt="Imagen 2" />
+              <img src={local2} alt="Imagen 2" />
               <div className="info-text">
                 <h3>Aventura Gym Local Naranjal</h3>
                 <ul>
@@ -115,7 +119,7 @@ export const Locales = () => {
             </div>
             <div className="info-div clearfix">
               <img
-                src="/src/assets/img/local-Universitaria2751.webp"
+                src={local3}
                 alt="Imagen 2"
               />
               <div className="info-text">
@@ -157,7 +161,7 @@ export const Locales = () => {
             <div className="col-md-7">
               <div className="info-div clearfix">
                 <img
-                  src="/src/assets/img/local-sanmartinporres.webp"
+                  src={local4}
                   alt="Imagen 1"
                 />
                 <div className="info-text">
@@ -181,7 +185,7 @@ export const Locales = () => {
               </div>
               <div className="info-div clearfix">
                 <img
-                  src="/src/assets/img/local-santaanita.webp"
+                  src={local5}
                   alt="Imagen 2"
                 />
                 <div className="info-text">
