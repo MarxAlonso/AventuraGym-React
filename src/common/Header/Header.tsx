@@ -115,7 +115,7 @@ export const Header = () => {
               </ul>
             </div>
           </nav>
-          <a href="contacto.php" className="cs-button-solid cs-nav-button">
+          <a href="/" className="cs-button-solid cs-nav-button">
             CONTACTANOS
           </a>
         </div>

@@ -7,7 +7,7 @@ export const Footer = () => {
           <div className="row">
             <div className="footer-col col-sm-6 col-lg-3">
               <br />
-              <a href="inicio">
+              <a href="/">
                 <img
                   src="/src/assets/img/aventura-gym.webp"
                   className="logo-footer"
@@ -27,7 +27,7 @@ export const Footer = () => {
             </div>
             <div className="footer-col col-sm-6 col-lg-3">
               <br />
-              <a className="menus" href="inicio">
+              <a className="menus" href="/">
                 Inicio
               </a>
               <a className="menus" href="nosotros">
@@ -42,7 +42,7 @@ export const Footer = () => {
               <a className="menus" href="blog">
                 Blog
               </a>
-              <a className="menus" href="contacto">
+              <a className="menus" href="/">
                 Contacto
               </a>
             </div>
@@ -55,7 +55,7 @@ export const Footer = () => {
               <p className="horarios">
                 <b>Números de contacto</b>
                 <br />
-                Whatsapp: 978 105 066 <br />
+                Whatsapp: 987 654 321 <br />
                 Fijo local 1: 01 528 9667 <br />
                 Fijo Local 2: 01 688 4174 <br />
                 Realizamos delivery
