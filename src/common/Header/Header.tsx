@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import logo from '../../assets/img/avntgym.png';
 import './Header.css';
 
 export const Header = () => {
@@ -64,7 +65,7 @@ export const Header = () => {
             aria-label="back to home"
           >
             <img
-              src="/src/assets/img/avntgym.png"
+              src={logo}
               alt="logo"
               width={230}
               height={50}
